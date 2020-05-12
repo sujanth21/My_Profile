@@ -1,0 +1,20 @@
+.Header {
+  border: 1px solid #69f0ae !important;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+}
+
+.Header .icon-left {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Header .icon-right {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.Header .center-align {
+  text-align: center;
+}
