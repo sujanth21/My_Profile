@@ -1,15 +1,15 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ icon_left, icon_right, profile_name, job_title }) => {
   return (
-    <div className='ui segment Header'>
-      <i class='code icon big icon-left'></i>
+    <div className='Header'>
+      <i className={`${icon_left} icon big icon-left`}></i>
       <div className='center-align'>
-        <h3>Sujanth S</h3>
-        <p>React & Node JS Developer</p>
+        <h3 className='profile_name'>{profile_name}</h3>
+        <p>{job_title}</p>
       </div>
-      <i class='coffee icon big icon-right'></i>
+      <i className={`${icon_right} icon big icon-right`}></i>
     </div>
   );
 };

@@ -1,7 +1,10 @@
 .Header {
   border: 1px solid #69f0ae !important;
+  border-radius: 4px;
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
   display: flex;
-  position: absolute;
   justify-content: space-between;
 }
 
@@ -17,4 +20,12 @@
 
 .Header .center-align {
   text-align: center;
+}
+
+.Header .m1 {
+  margin: 0 20px;
+}
+
+.Header .profile_name {
+  font-size: 2rem;
 }

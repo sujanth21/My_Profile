@@ -1,0 +1,21 @@
+.BasicInfoCard img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.BasicInfoCard .content {
+  margin: 20px 20px;
+}
+
+.BasicInfoCard .p1 {
+  padding-bottom: 10px;
+}
+
+.BasicInfoCard .text_size_1 {
+  font-size: 1rem;
+}
+.BasicInfoCard .text_size_2 {
+  font-size: 1.25rem;
+}
