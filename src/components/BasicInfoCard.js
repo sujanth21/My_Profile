@@ -4,7 +4,10 @@ import "./BasicInfoCard.css";
 const BasicInfoCard = ({ githubData, email, mobile }) => {
   return (
     <div className='BasicInfoCard'>
-      <img src={githubData.avatar_url} alt={githubData.login} />
+      <img
+        src='https://media-exp1.licdn.com/dms/image/C4D03AQFpnYRDOnFPYA/profile-displayphoto-shrink_200_200/0?e=1594857600&v=beta&t=YhM6JiCHEaspCd8Rrum-fTJUU-LfsKf72x-3Q7XH2a8'
+        alt={githubData.login}
+      />
       <div className='content'>
         <div className='text_size_1 p1'>
           <strong>Name: </strong>
